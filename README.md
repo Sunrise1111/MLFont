@@ -7,3 +7,6 @@ The automatic generation of Chinese fonts is challenging due to the large quanti
 # Prerequisites
 python > 3.6
 pytorch == 1.2
+
+# Dataset
+pre-training dataset | [download]()
