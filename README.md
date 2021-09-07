@@ -10,3 +10,7 @@ pytorch == 1.2
 
 # Dataset
 pre-training dataset | [download]()
+
+# Usage
+pre-training : python meta_train.py
+fine-tuning  : python finetuning.py 
