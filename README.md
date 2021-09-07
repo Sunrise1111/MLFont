@@ -9,7 +9,7 @@ python > 3.6
 pytorch == 1.2
 
 # Dataset
-pre-training dataset | [download]()
+pre-training dataset | [download](https://pan.baidu.com/s/1VgWooXwYfzCbfjwvvC1pHQ) 8888
 
 # Usage
 pre-training : python meta_train.py
