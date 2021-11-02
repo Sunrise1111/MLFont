@@ -105,7 +105,6 @@ def main():
         if epoch % opt.test_per_epochs == 0:
             with torch.no_grad():
                 netG.eval()
-                total_l1 = 0
                 for i, test in enumerate(test_loader):
                     index = random.randint(0, len(train_dataset) - 1)
                     _, style, _ = train_dataset[index]
@@ -123,8 +122,6 @@ def main():
 
                     writer.add_scalar('test_l1', test_l1, test_iter)
                     test_iter += 1
-                avg_l1 = total_l1/64
-                print(avg_l1)
 
 if __name__ == '__main__':
     main()
